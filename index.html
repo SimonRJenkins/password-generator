@@ -2,10 +2,30 @@
 
 <head>
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1></h1>
+    <div class="heading">
+        <h2 id="g-text">Generate a</h2>
+        <h2 id="r-text">random password</h2>
+        <p id="n-text">Never use an insecure password again.</p>
+    </div>
+    <div class="password-button">
+        <button id="pw-button" onclick="generatePasswords()">Generate passwords</button>
+    </div>
+    <div class="line"></div>
+    <div class="pw-box1">
+        <p id="pw-box1-text"></p>
+    </div>
+    <div class="pw-box2">
+        <p id="pw-box2-text"></p>
+    </div>
     <script src="index.js"></script>
 </body>
 
