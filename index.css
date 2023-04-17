@@ -1,54 +1,55 @@
 body {
     margin: 0;
     background-color: #1f2937;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .heading {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 #g-text,
 #r-text {
     width: 354px;
-    height: 80px;
-    left: 52px;
-    top: 115px;
     font-family: 'Karla', sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
-    line-height: 40px;
+    line-height: 0px;
     letter-spacing: -0.025em;
-
 }
 
 #g-text {
     color: white;
+    margin-bottom: 10px;
 }
 
 #r-text {
     color: #4ADf86;
+    margin-bottom: 20px;
 }
 
 #n-text {
-    position: absolute;
     color: #D5D4D8;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400px;
     width: 372px;
-    height: 28px;
-    left: 52px;
-    top: 205px;
-    line-height: 28px;
-
+    line-height: 20px;
+    margin-bottom: 60px;
 }
 
+
 #pw-button {
-    position: absolute;
+    display: inline-block;
+    text-align: center;
     background-color: #10b981;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -56,14 +57,13 @@ body {
     font-style: normal;
     width: 191px;
     height: 42px;
-    left: 52px;
     top: 284px;
     border: none;
     border-radius: 6px;
     color: #FFFFFF;
 }
 
-.pw-button:hover {
+#pw-button:hover {
     background-color: #0a7350;
 }
 
@@ -96,16 +96,17 @@ body {
 
 #pw-box1-text,
 #pw-box2-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #55f991;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 32px;
+    height: 40px;
+    line-height: normal;
+    margin: 0 auto;
     text-align: center;
-    width: 180px;
-    height: 32px;
-    left: 67px;
-    top: 400px;
 
 }
