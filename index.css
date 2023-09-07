@@ -34,7 +34,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 9px 17px 9px 15px;
-  margin-top: 50px;
+  margin-top: 65px;
   background-color: #7c3aed;
   width: 191px;
   height: 42px;
@@ -74,6 +74,11 @@ body {
   color: #a78bfa;
 }
 
+.n-text {
+  position: absolute;
+  top: 170px;
+}
+
 #gb-text,
 #n-text,
 #pw-box-1,
@@ -82,3 +87,5 @@ body {
   font-weight: 500;
   font-size: 16px;
 }
+
+
