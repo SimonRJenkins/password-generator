@@ -2,3 +2,5 @@ The Password Generator solo project from the Javascript Challenges section of th
 This involved being given a Figma design to follow and implementing the design and functionality myself.
 
 Built using HTML, CSS, and JavaScript.
+
+Live version: https://password-generator-srj.netlify.app/
