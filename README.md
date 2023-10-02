@@ -2,7 +2,7 @@ The Password Generator solo project from the Javascript Challenges section of th
 
 This involved being given a Figma design to implement and then also adding the functionality myself.
 
-It generates two passwords that are 15 characters in length and contain a mixture of letters, numbers, and symbols from the printable ASCII character set.
+The user can choose if the passwords contain just letters or include numbers and/or symbols. The length can also be selected with a minimum of 8 characters and a maximum of 15 characters.
 
 Built using HTML, CSS, and JavaScript.
 
