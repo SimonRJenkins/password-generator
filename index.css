@@ -20,9 +20,15 @@ body {
   letter-spacing: -0.025em;
 }
 
-#n-text {
+#n-text, .num-sym {
   color: #d5d4d8;
 }
+
+.num-sym {
+  padding-top: 25px;
+display: block;
+}
+
 
 #generate-button:hover {
   background-color: #6d28d9;
@@ -82,7 +88,7 @@ body {
 #gb-text,
 #n-text,
 #pw-box-1,
-#pw-box-2 {
+#pw-box-2, .num-sym {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 16px;
