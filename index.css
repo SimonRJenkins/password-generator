@@ -20,18 +20,18 @@ body {
   letter-spacing: -0.025em;
 }
 
-#n-text, .num-sym {
+#n-text,
+.num-sym {
   color: #d5d4d8;
 }
 
 .num-sym {
+  display: flex;
   padding-top: 25px;
-display: block;
 }
 
-
-#generate-button:hover {
-  background-color: #6d28d9;
+#length {
+  width: 39px;
 }
 
 #generate-button {
@@ -41,15 +41,13 @@ display: block;
   align-items: center;
   padding: 9px 17px 9px 15px;
   margin-top: 65px;
-  background-color: #7c3aed;
   width: 191px;
   height: 42px;
   border: none;
-  border-radius: 6px;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-#gb-text {
+#gp-text {
   color: #ffffff;
 }
 
@@ -75,9 +73,12 @@ display: block;
   background-color: #273549;
   width: 211px;
   height: 39px;
-  border-radius: 6px;
   line-height: 8px;
   color: #a78bfa;
+}
+
+#generate-button, #pw-box-1, #pw-box-2 {
+  border-radius: 6px;
 }
 
 .n-text {
@@ -85,29 +86,29 @@ display: block;
   top: 170px;
 }
 
-#gb-text,
+#gp-text,
 #n-text,
 #pw-box-1,
-#pw-box-2, .num-sym {
+#pw-box-2,
+.num-sym {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 16px;
 }
 
-
-img {
-  display: none;
-}
-
 .password-boxes img {
-padding: 3px;
-margin: auto;
-border-radius: 10px;
-background-color: #7c3aed;
-
+  display: none;
+  padding: 3px;
+  margin: auto;
+  border-radius: 10px;
 }
 
-img:hover {
-  background-color: #6d28d9;
+.password-boxes img, #generate-button {
+  background-color: #7c3aed;
+}
+
+img:hover,
+#generate-button:hover {
+  background-color: #5B21B6;
   cursor: pointer;
 }

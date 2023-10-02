@@ -19,15 +19,21 @@
     </div>
     <div class="num-sym">
       <label>
+        Include numbers
       <input type="checkbox" id="numbers">
-      Include numbers
+
     </label>
     <label>
+      Include symbols
       <input type="checkbox" id="symbols">
-      Include symbols</label>
+      </label>
+      <br><label>
+        Password length
+        <input type="number" id="length" name="length" min="8" max="15" value="8">
+      </label>
     </div>
     <button onclick="generatePasswords()" id="generate-button">
-      <p id="gb-text">Generate passwords</p>
+      <p id="gp-text">Generate passwords</p>
 
     </button>
     <div class="line"></div>
