@@ -8,6 +8,10 @@ let numbers = document.getElementById("numbers")
 let symbols = document.getElementById("symbols")
 let passwordLength = document.getElementById("length")
 
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text)
+}
+
 function generatePasswords() {
 
   let characters = [];
@@ -41,10 +45,10 @@ function generatePasswords() {
   copyBox2.style.display = "flex"
 
   copyBox1.addEventListener('click', function () {
-    navigator.clipboard.writeText(box1.textContent)
+    copyToClipboard(box1.textContent)
   })
 
   copyBox2.addEventListener('click', function () {
-    navigator.clipboard.writeText(box2.textContent)
+    copyToClipboard(box2.textContent)
   })
 }
