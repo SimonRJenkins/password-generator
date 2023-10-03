@@ -6,7 +6,6 @@ const copyBox2 = document.getElementById("copy2")
 
 let numbers = document.getElementById("numbers")
 let symbols = document.getElementById("symbols")
-
 let passwordLength = document.getElementById("length")
 
 function generatePasswords() {
