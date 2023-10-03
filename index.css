@@ -4,7 +4,8 @@ body {
   margin: 100px auto;
 }
 
-#g-text {
+#g-text,
+#gp-text {
   color: #ffffff;
 }
 
@@ -35,34 +36,18 @@ body {
 }
 
 #generate-button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 9px 17px 9px 15px;
   margin-top: 65px;
-  width: 191px;
-  height: 42px;
-  border: none;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-}
-
-#gp-text {
-  color: #ffffff;
+  border: none;
 }
 
 .line {
   margin: 35px auto;
   border: 1px solid #2f3e53;
-  width: 446px;
-  height: 0px;
-  left: 52px;
-  top: 361px;
 }
 
 .password-boxes {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
@@ -72,18 +57,25 @@ body {
   text-align: center;
   background-color: #273549;
   width: 211px;
-  height: 39px;
   line-height: 8px;
   color: #a78bfa;
+  padding-bottom: 5px;
 }
 
-#generate-button, #pw-box-1, #pw-box-2 {
-  border-radius: 6px;
+#generate-button,
+#pw-box-1,
+#pw-box-2,
+.password-boxes img {
+  border-radius: 10px;
 }
 
 .n-text {
   position: absolute;
   top: 170px;
+}
+
+label {
+  padding-bottom:
 }
 
 #gp-text,
@@ -100,10 +92,10 @@ body {
   display: none;
   padding: 3px;
   margin: auto;
-  border-radius: 10px;
 }
 
-.password-boxes img, #generate-button {
+.password-boxes img,
+#generate-button {
   background-color: #7c3aed;
 }
 
